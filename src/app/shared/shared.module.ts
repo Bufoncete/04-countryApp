@@ -6,8 +6,6 @@ import { HomePageComponent } from './pages/homePage/homePage.component';
 import { AboutPageComponent } from './pages/about-page/about-page.component';
 import { SidebarComponent } from './Components/sidebar/sidebar.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
-import { ByCapitalPageComponent } from './pages/countries/pages/by-capital-page/by-capital-page.component';
-
 
 
 @NgModule({
@@ -16,7 +14,6 @@ import { ByCapitalPageComponent } from './pages/countries/pages/by-capital-page/
     AboutPageComponent,
     SidebarComponent,
     ContactPageComponent,
-    ByCapitalPageComponent,
   ],
   imports: [
     CommonModule,
