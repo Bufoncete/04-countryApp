@@ -6,10 +6,10 @@ import { ContactPageComponent } from './shared/pages/contact-page/contact-page.c
 import { HomePageComponent } from './shared/pages/homePage/homePage.component';
 
 const routes: Routes = [
-  {
-    path: '',
-    component: HomePageComponent,
-  },
+  // {
+  //   path: '',
+  //   component: HomePageComponent,
+  // },
   {
     path: 'about',
     component: AboutPageComponent
@@ -20,7 +20,7 @@ const routes: Routes = [
   },
   {
     path: 'countries',
-    loadChildren: () => import('./countries/countries.module').then( m => m.CountriesModule )
+    loadChildren: () => import('./countries/countries.module').then(m => m.CountriesModule)
   },
   {
     path: '**',
@@ -30,7 +30,7 @@ const routes: Routes = [
 
 @NgModule({
   imports: [
-    RouterModule.forRoot( routes ),
+    RouterModule.forRoot(routes),
   ],
   exports: [
     RouterModule,

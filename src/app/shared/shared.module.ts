@@ -6,6 +6,7 @@ import { HomePageComponent } from './pages/homePage/homePage.component';
 import { AboutPageComponent } from './pages/about-page/about-page.component';
 import { SidebarComponent } from './Components/sidebar/sidebar.component';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
+import { SearchBoxComponent } from './Components/search-box/search-box.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { ContactPageComponent } from './pages/contact-page/contact-page.componen
     AboutPageComponent,
     SidebarComponent,
     ContactPageComponent,
+    SearchBoxComponent,
   ],
   imports: [
     CommonModule,
@@ -24,6 +26,7 @@ import { ContactPageComponent } from './pages/contact-page/contact-page.componen
     AboutPageComponent,
     SidebarComponent,
     ContactPageComponent,
+    SearchBoxComponent,
   ]
 })
 export class SharedModule { }

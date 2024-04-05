@@ -1,3 +1,4 @@
+import { SharedModule } from './../shared/shared.module';
 import { CountriesRoutingModule } from './coutries-routing.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -17,7 +18,8 @@ import { CountryPageComponent } from './pages/country-page/country-page.componen
   ],
   imports: [
     CommonModule,
-    CountriesRoutingModule
+    CountriesRoutingModule,
+    SharedModule,
   ]
 })
 export class CountriesModule { }
