@@ -8,11 +8,12 @@ import { Country } from '../../interfaces/country';
     `img {
       width: 25px;
     }`
-
   ]
 })
 export class CountryTableComponent {
 
   @Input()
-  public countries: Country [] = [];
+  public countries: Country[] = [];
+
+
 }
